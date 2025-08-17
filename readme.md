@@ -86,7 +86,8 @@
 本项目是一个 Uniapp 学习实践项目，主要目的为：
 
 1. **技术迁移练习**：基于已完成的 Vue3 Web 前端项目迁移到 Uniapp 小程序平台
-   （原 Vue3 项目地址：[项目链接]([chenfr0525/ai-interview](https://github.com/chenfr0525/ai-interview))）
+   （原 Vue3 项目地址：[项目链接]([chenfr0525/ai-interview](https://github.com/chenfr0525/ai-interview))
+   
 2. **纯前端实现**：
    - 所有数据通过 Mock 方式模拟
    - 语音交互功能使用 setTimeout 模拟流程
