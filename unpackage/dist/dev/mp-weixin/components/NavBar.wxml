@@ -1,0 +1,1 @@
+<view class="navbar-container" style="{{'padding-top:' + d + ';' + ('height:' + e)}}"><uni-icons wx:if="{{b}}" bindclick="{{a}}" u-i="2a9ee001-0" bind:__l="__l" u-p="{{b}}"></uni-icons><text class="title">{{c}}</text><view></view></view><view style="{{'height:' + f}}"></view>

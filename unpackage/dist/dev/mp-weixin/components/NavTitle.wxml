@@ -1,0 +1,1 @@
+<view class="nav-title data-v-af31a403"><view class="left data-v-af31a403">{{a}}</view><view class="right data-v-af31a403" bindtap="{{c}}"><view class="text data-v-af31a403">全部</view><uni-icons wx:if="{{b}}" class="data-v-af31a403" u-i="af31a403-0" bind:__l="__l" u-p="{{b}}"></uni-icons></view></view>

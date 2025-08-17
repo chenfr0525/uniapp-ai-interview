@@ -1,0 +1,1 @@
+<view class="content-box" bindtap="{{e}}" style="{{'background:' + f + ';' + ('color:' + g)}}"><view class="title"><view class="title-text">{{a}}</view><view class="score">{{b}}</view><view class="date">{{c}}</view></view><view class="content">{{d}}</view></view>

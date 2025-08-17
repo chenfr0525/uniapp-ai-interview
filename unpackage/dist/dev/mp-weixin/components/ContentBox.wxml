@@ -1,0 +1,1 @@
+<view class="content-box data-v-bcce938a" bindtap="{{c}}" style="{{'background:' + d + ';' + ('color:' + e)}}"><view class="title data-v-bcce938a"><view class="title-text data-v-bcce938a">{{a}}</view></view><view class="content data-v-bcce938a">{{b}}</view></view>

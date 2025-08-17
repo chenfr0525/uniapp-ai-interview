@@ -1,0 +1,188 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.task-center-container.data-v-53a09dd8 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #f5f7fa, #e4e8f0);
+}
+.task-center-container .header.data-v-53a09dd8 {
+  width: 100%;
+  padding: 20rpx 40rpx;
+  background: linear-gradient(to right, #6b8cff, #4b6cff);
+  color: #fff;
+  box-shadow: 0 4rpx 12rpx rgba(75, 108, 255, 0.2);
+}
+.task-center-container .header .title-box.data-v-53a09dd8 {
+  margin-bottom: 20rpx;
+}
+.task-center-container .header .title-box .title.data-v-53a09dd8 {
+  font-size: 44rpx;
+  font-weight: bold;
+  display: block;
+}
+.task-center-container .header .title-box .subtitle.data-v-53a09dd8 {
+  font-size: 28rpx;
+  opacity: 0.9;
+}
+.task-center-container .header .progress-box.data-v-53a09dd8 {
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.task-center-container .header .progress-box .progress-bar.data-v-53a09dd8 {
+  flex: 1;
+  height: 16rpx;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8rpx;
+  overflow: hidden;
+  margin-right: 20rpx;
+}
+.task-center-container .header .progress-box .progress-bar .progress.data-v-53a09dd8 {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 8rpx;
+  transition: width 0.3s;
+}
+.task-center-container .header .progress-box .progress-text.data-v-53a09dd8 {
+  font-size: 26rpx;
+}
+.task-center-container .category-scroll.data-v-53a09dd8 {
+  width: 100%;
+  white-space: nowrap;
+  background-color: #fff;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.task-center-container .category-scroll .category-container.data-v-53a09dd8 {
+  display: inline-flex;
+  padding: 20rpx 30rpx;
+}
+.task-center-container .category-scroll .category-container .category-item.data-v-53a09dd8 {
+  padding: 12rpx 30rpx;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+  border-radius: 30rpx;
+  background-color: #f5f7fa;
+}
+.task-center-container .category-scroll .category-container .category-item.active.data-v-53a09dd8 {
+  background-color: #4b6cff;
+  color: #fff;
+  font-weight: bold;
+}
+.task-center-container .task-scroll.data-v-53a09dd8 {
+  flex: 1;
+  height: 1px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.task-center-container .task-scroll .task-list.data-v-53a09dd8 {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  gap: 30rpx;
+}
+.task-center-container .task-scroll .task-list .task-item.data-v-53a09dd8 {
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.task-center-container .task-scroll .task-list .task-item .task-header.data-v-53a09dd8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.task-center-container .task-scroll .task-list .task-item .task-header .task-title.data-v-53a09dd8 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.task-center-container .task-scroll .task-list .task-item .task-header .task-reward.data-v-53a09dd8 {
+  font-size: 26rpx;
+  color: #ff9500;
+  font-weight: bold;
+}
+.task-center-container .task-scroll .task-list .task-item .task-desc.data-v-53a09dd8 {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 30rpx;
+  display: block;
+}
+.task-center-container .task-scroll .task-list .task-item .task-progress.data-v-53a09dd8 {
+  margin-bottom: 30rpx;
+}
+.task-center-container .task-scroll .task-list .task-item .task-progress .progress-text.data-v-53a09dd8 {
+  font-size: 26rpx;
+  color: #999;
+  display: block;
+  margin-bottom: 10rpx;
+}
+.task-center-container .task-scroll .task-list .task-item .task-progress .progress-bar.data-v-53a09dd8 {
+  height: 12rpx;
+  background-color: #f5f7fa;
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+.task-center-container .task-scroll .task-list .task-item .task-progress .progress-bar .progress.data-v-53a09dd8 {
+  height: 100%;
+  border-radius: 6rpx;
+  background-color: #ddd;
+}
+.task-center-container .task-scroll .task-list .task-item .task-progress .progress-bar .progress.progress-doing.data-v-53a09dd8 {
+  background-color: #4b6cff;
+}
+.task-center-container .task-scroll .task-list .task-item .task-progress .progress-bar .progress.progress-done.data-v-53a09dd8 {
+  background-color: #00c853;
+}
+.task-center-container .task-scroll .task-list .task-item .task-footer.data-v-53a09dd8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.task-center-container .task-scroll .task-list .task-item .task-footer .task-deadline.data-v-53a09dd8 {
+  font-size: 26rpx;
+  color: #999;
+}
+.task-center-container .task-scroll .task-list .task-item .task-footer .task-status.data-v-53a09dd8 {
+  font-size: 26rpx;
+  padding: 6rpx 20rpx;
+  border-radius: 20rpx;
+}
+.task-center-container .task-scroll .task-list .task-item .task-footer .task-status.status-done.data-v-53a09dd8 {
+  background-color: #e8f5e9;
+  color: #00c853;
+}
+.task-center-container .task-scroll .task-list .task-item .task-footer .task-status.status-doing.data-v-53a09dd8 {
+  background-color: #e3f2fd;
+  color: #2196f3;
+}
+.task-center-container .task-scroll .task-list .task-item .task-footer .task-status.status-nodo.data-v-53a09dd8 {
+  background-color: #f5f5f5;
+  color: #9e9e9e;
+}

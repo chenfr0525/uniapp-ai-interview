@@ -1,0 +1,1 @@
+<view class="search-content data-v-c1ee981f"><view wx:for="{{a}}" wx:for-item="item" wx:key="c" bindtap="{{item.b}}" class="search-item data-v-c1ee981f">{{item.a}}</view></view>

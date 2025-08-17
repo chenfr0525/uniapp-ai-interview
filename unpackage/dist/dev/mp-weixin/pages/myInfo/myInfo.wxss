@@ -1,0 +1,107 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.myinfo-container.data-v-ee02cf37 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+  background: linear-gradient(to bottom, #E9EBF7, transparent), radial-gradient(at left top, #b3dcee, transparent);
+}
+.myinfo-container .info-content.data-v-ee02cf37 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 60rpx;
+}
+.myinfo-container .info-content .avatar.data-v-ee02cf37 {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 50rpx;
+}
+.myinfo-container .info-content .avatar image.data-v-ee02cf37 {
+  width: 100%;
+  height: 100%;
+}
+.myinfo-container .info-content .description .nickname.data-v-ee02cf37 {
+  font-size: 38rpx;
+  font-weight: bold;
+  color: #010204;
+}
+.myinfo-container .info-content .description text.data-v-ee02cf37 {
+  font-size: 26rpx;
+  color: #A1A1A1;
+}
+.myinfo-container .content-container.data-v-ee02cf37 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F7F7F7;
+  border-radius: 30rpx;
+  box-shadow: #E9EBF7 0px 0px 10px;
+  width: 88%;
+  margin: 0 auto;
+  padding: 20rpx;
+}
+.myinfo-container .content-container .box.data-v-ee02cf37 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.myinfo-container .content-container .box .num.data-v-ee02cf37 {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.myinfo-container .content-container .box text.data-v-ee02cf37 {
+  font-size: 28rpx;
+  color: #73604B;
+}
+.myinfo-container .content-container .box .icon.data-v-ee02cf37 {
+  width: 115rpx;
+  height: 115rpx;
+}
+.myinfo-container .content-container .box .icon image.data-v-ee02cf37 {
+  width: 100%;
+  height: 100%;
+}
+.myinfo-container .content-container.util-box.data-v-ee02cf37 {
+  padding: 0rpx;
+  flex-direction: column;
+}
+.myinfo-container .content-container.util-box .content-item.data-v-ee02cf37 {
+  padding: 40rpx 20rpx;
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3e3e3e;
+}
+.myinfo-container .content-container.util-box .content-item.data-v-ee02cf37:last-child {
+  border: none;
+}

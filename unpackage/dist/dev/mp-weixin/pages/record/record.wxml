@@ -1,0 +1,1 @@
+<view class="record-container data-v-ef6850c5"><view wx:if="{{a}}" class="content data-v-ef6850c5"><history-problem wx:for="{{b}}" wx:for-item="item" wx:key="a" class="data-v-ef6850c5" u-i="{{item.b}}" bind:__l="__l" u-p="{{item.c}}"/></view><view wx:else class="no-data data-v-ef6850c5"><text class="data-v-ef6850c5">你还没有面试记录哦~</text></view></view>

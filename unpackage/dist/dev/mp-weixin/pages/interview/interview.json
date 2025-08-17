@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "进行面试",
+  "usingComponents": {
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

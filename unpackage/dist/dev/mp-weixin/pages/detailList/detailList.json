@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nav-bar": "../../components/NavBar",
+    "detail-item": "../../components/DetailItem"
+  }
+}

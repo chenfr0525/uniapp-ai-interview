@@ -1,0 +1,106 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myInfo/myInfo",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索"
+			}
+		},
+		{
+			"path" : "pages/list/list",
+			"style" : 
+			{
+				"navigationBarTitleText" : "列表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/detailList/detailList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/interview/interview",
+			"style" : 
+			{
+				"navigationBarTitleText" : "进行面试"
+			}
+		},
+		{
+			"path" : "pages/result/result",
+			"style" : 
+			{
+				"navigationBarTitleText" : "面试结果"
+			}
+		},
+		{
+			"path" : "pages/record/record",
+			"style" : 
+			{
+				"navigationBarTitleText" : "面试记录"
+			}
+		},
+		{
+			"path" : "pages/taskCenter/taskCenter",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#eee",
+		"selectedColor": "#d5ff6b",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/images/home.png",
+				"selectedIconPath": "/static/images/home-active.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/classify/classify",
+				"iconPath": "/static/images/classify.png",
+				"selectedIconPath": "/static/images/classify-active.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/myInfo/myInfo",
+				"iconPath": "/static/images/me.png",
+				"selectedIconPath": "/static/images/me-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

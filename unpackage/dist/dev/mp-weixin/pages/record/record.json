@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "面试记录",
+  "usingComponents": {
+    "history-problem": "../../components/HistoryProblem"
+  }
+}

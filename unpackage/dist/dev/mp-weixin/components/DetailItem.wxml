@@ -1,0 +1,1 @@
+<view class="detail-item data-v-85b5a588" bindtap="{{c}}"><text class="detail-title data-v-85b5a588">{{a}}</text><uni-icons wx:if="{{b}}" class="data-v-85b5a588" u-i="85b5a588-0" bind:__l="__l" u-p="{{b}}"></uni-icons></view>

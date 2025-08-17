@@ -1,0 +1,150 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home-view.data-v-1cf27b2a {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #EAFF6B, #e6f3c3), radial-gradient(70% 200rpx at left top, #d4f182, transparent), radial-gradient(60% 200rpx at right top, #C8E86F, transparent), linear-gradient(to bottom, transparent 40%, #fff 80%);
+  /* 固定头部 */
+  /* 可滚动内容 */
+}
+.home-view .fixed-header.data-v-1cf27b2a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.home-view .fixed-header .description.data-v-1cf27b2a {
+  position: relative;
+  height: 250rpx;
+}
+.home-view .fixed-header .description .ai.data-v-1cf27b2a {
+  position: absolute;
+  top: 55rpx;
+  left: 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+}
+.home-view .fixed-header .description .box.data-v-1cf27b2a {
+  width: 470rpx;
+  height: 170rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  background: linear-gradient(to bottom, #545539, #717537);
+  border-radius: 60rpx;
+  padding: 30rpx 20rpx;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+.home-view .fixed-header .description .box .title.data-v-1cf27b2a {
+  display: block;
+  margin: 0;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #EAFF6B;
+}
+.home-view .fixed-header .description .box .subtitle.data-v-1cf27b2a {
+  display: block;
+  margin: 15rpx 50rpx;
+  font-size: 32rpx;
+  color: #fff;
+}
+.home-view .scroll-body.data-v-1cf27b2a {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.home-view .scroll-body .header-placeholder.data-v-1cf27b2a {
+  width: 100%;
+}
+.home-view .scroll-body .body-container.data-v-1cf27b2a {
+  min-height: calc(100% - 202px);
+  background-color: #FFF;
+  border-radius: 60rpx 60rpx 0 0;
+  box-shadow: #C8E86F 0px 0px 20rpx;
+  padding: 40rpx 40rpx 20rpx 40rpx;
+}
+.home-view .scroll-body .body-container .search.data-v-1cf27b2a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+.home-view .scroll-body .body-container .search .box.data-v-1cf27b2a {
+  display: flex;
+  align-items: center;
+  border: 2rpx solid #eee;
+  border-radius: 30rpx;
+  padding: 20rpx 30rpx;
+  width: 675rpx;
+  height: 80rpx;
+  box-shadow: 0 4rpx 6rpx rgba(0, 0, 0, 0.1);
+  color: #A1A1A1;
+}
+.home-view .scroll-body .body-container .search .box .text.data-v-1cf27b2a {
+  margin-left: 20rpx;
+  font-size: 32rpx;
+}
+.home-view .scroll-body .body-container .search .icon.data-v-1cf27b2a {
+  width: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 24rpx;
+  background-color: #f7f7f7;
+  margin-left: 10rpx;
+  color: #010204;
+  font-size: 40rpx;
+}
+.home-view .scroll-body .body-container .hot .scroll-container.data-v-1cf27b2a {
+  width: 100%;
+  height: 260rpx;
+}
+.home-view .scroll-body .body-container .hot .scroll-container .grid-container.data-v-1cf27b2a {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, 120rpx);
+  gap: 10rpx;
+}
+.home-view .scroll-body .body-container .hot .scroll-container .grid-container.data-v-1cf27b2a .content-box {
+  width: 250rpx;
+}
+.home-view .scroll-body .body-container .recent .content.data-v-1cf27b2a .content-box {
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.home-view .scroll-body .body-container .recent .no-data.data-v-1cf27b2a {
+  padding-top: 40rpx;
+  height: 190rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #A1A1A1;
+}
